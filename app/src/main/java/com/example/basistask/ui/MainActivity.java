@@ -1,4 +1,4 @@
-package com.jagdishchoudhary.basistask.ui;
+package com.example.basistask.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
@@ -22,9 +22,8 @@ import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
-import com.jagdishchoudhary.basistask.R;
-import com.jagdishchoudhary.basistask.ZoomOutPageTransformer;
-import com.jagdishchoudhary.basistask.model.Data;
+import com.example.basistask.R;
+import com.example.basistask.model.Data;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -72,14 +71,13 @@ public class MainActivity extends AppCompatActivity {
 
         loadData();
 
-        viewPager2.setPageTransformer(new ZoomOutPageTransformer());
         //Toast.makeText(MainActivity.this, "Current:" + viewPager2.getCurrentItem(), Toast.LENGTH_SHORT).show();
         viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels);
-                postionText.setText("Current Postion : " + (position + 1) + "/"+ dataList.size());
+                postionText.setText("Page: " + (position + 1) + "/"+ dataList.size());
                 progressBar1.setProgress(position+1);
 
             }

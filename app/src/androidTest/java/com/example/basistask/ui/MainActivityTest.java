@@ -1,11 +1,11 @@
-package com.jagdishchoudhary.basistask.ui;
+package com.example.basistask.ui;
 
 import android.view.View;
 
 import androidx.test.espresso.Espresso;
 import androidx.test.rule.ActivityTestRule;
 
-import com.jagdishchoudhary.basistask.R;
+import com.example.basistask.R;
 
 import org.junit.After;
 import org.junit.Before;

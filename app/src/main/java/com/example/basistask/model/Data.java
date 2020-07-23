@@ -1,4 +1,4 @@
-package com.jagdishchoudhary.basistask.model;
+package com.example.basistask.model;
 
 import java.io.Serializable;
 

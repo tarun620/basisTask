@@ -1,4 +1,4 @@
-package com.jagdishchoudhary.basistask.ui;
+package com.example.basistask.ui;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.jagdishchoudhary.basistask.R;
-import com.jagdishchoudhary.basistask.model.Data;
+import com.example.basistask.R;
+import com.example.basistask.model.Data;
 
 import java.util.List;
 

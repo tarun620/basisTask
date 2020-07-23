@@ -1,4 +1,4 @@
-package com.jagdishchoudhary.basistask;
+package com.example.basistask;
 
 import android.content.Context;
 

@@ -17,10 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="Data text"
             android:textAlignment="center"
+            android:text="Data text"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold|italic" />
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
